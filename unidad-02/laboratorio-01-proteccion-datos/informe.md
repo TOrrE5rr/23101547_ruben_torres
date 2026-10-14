@@ -47,3 +47,18 @@ Porque un usuario con permisos sobre la tabla podría consultar directamente la 
 
 ### 4. ¿Qué ocurriría si soporte tuviera acceso directo a clientes?
 Podría consultar los datos originales completos 
+
+### Permisos aplicados
+
+```sql
+-- Permite utilizar el esquema public.
+GRANT USAGE ON SCHEMA public TO soporte;
+
+-- Permite consultar la vista con datos enmascarados.
+GRANT SELECT ON v_clientes_soporte TO soporte;
+
+-- Retira los permisos directos sobre la tabla original.
+REVOKE ALL ON clientes FROM soporte;
+```
+
+El mecanismo utilizado es el enmascaramiento de datos mediante una vista y el control de acceso por roles. La vista muestra parcialmente el correo, teléfono y RFC mediante funciones de texto y asteriscos, mientras los valores completos permanecen en la tabla original. El rol soporte tiene permiso para consultar la vista, pero no la tabla clientes, lo que impide que obtenga directamente los datos completos.
