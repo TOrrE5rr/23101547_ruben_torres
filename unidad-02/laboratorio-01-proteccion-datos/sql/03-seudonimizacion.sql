@@ -24,3 +24,62 @@ FROM clientes;
 -- Consulta el mapa de correspondencia entre tokens y clientes.
 SELECT *
 FROM pii.mapa_cliente;
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Regresa al rol original para configurar los objetos y permisos.
+RESET ROLE;
+
+-- Crea el rol sin inicio de sesión directo.
+CREATE ROLE analista2 NOLOGIN;
+
+-- Crea una copia analítica con tokens, sin identificadores directos.
+CREATE TABLE analitica.clientes AS
+SELECT
+    m.token,
+    c.edad,
+    c.ciudad,
+    c.codigo_postal
+FROM public.clientes AS c
+JOIN pii.mapa_cliente AS m
+    ON c.id = m.cliente_id;
+
+-- Permite consultar el conjunto analítico.
+GRANT USAGE ON SCHEMA analitica TO analista2;
+GRANT SELECT ON analitica.clientes TO analista2;
+
+-- Retira permisos directos sobre el mapa y la tabla original.
+REVOKE ALL ON SCHEMA pii FROM analista2;
+REVOKE ALL ON pii.mapa_cliente FROM analista2;
+REVOKE ALL ON public.clientes FROM analista2;
+
+-- Autoriza al usuario a asumir el rol; requiere permiso para asignarlo.
+GRANT analista2 TO u_23101547_ruben_torres;
+
+-- Activa el rol para comprobar el acceso.
+SET ROLE analista2;
+
+-- Debe permitir consultar los datos analíticos.
+SELECT *
+FROM analitica.clientes;
+
+-- Debe denegar el acceso al mapa de correspondencia.
+SELECT *
+FROM pii.mapa_cliente;
+
+-- Debe denegar el acceso a los datos originales.
+SELECT *
+FROM public.clientes;
+
+-- Finaliza la prueba y regresa al rol original.
+RESET ROLE;
