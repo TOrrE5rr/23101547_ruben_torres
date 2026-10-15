@@ -19,4 +19,6 @@ Calcula el hash de la contraseña utilizando la sal proporcionada tambien permit
    Porque se calcula el hash de la contraseña ingresada usando la misma sal y se compara con el almacenado.
   ## ¿Por qué un hash no debe confundirse con cifrado?
 Porque el hash es unidireccional, mientras que el cifrado permite recuperar el dato original mediante una clave
-  
+
+![Captura](img/image1.png)
+![Captura](img/image2.png)
