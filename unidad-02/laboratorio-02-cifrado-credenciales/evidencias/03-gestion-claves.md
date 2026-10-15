@@ -1,0 +1,2 @@
+ ## ¿Qué ocurriría si esta clave fuera una clave utilizada realmente por una organización y el archivo se publicara en un repositorio Git?
+ La clave quedaria expuesta y quien tuviera acceso a los datos cifrados podria descifrarlos. Aunque se eliminara el archivo, la clave podria permanecer en el historial de Git.
