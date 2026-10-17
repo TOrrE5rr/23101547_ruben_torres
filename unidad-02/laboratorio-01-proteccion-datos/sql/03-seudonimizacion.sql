@@ -54,6 +54,9 @@ FROM public.clientes AS c
 JOIN pii.mapa_cliente AS m
     ON c.id = m.cliente_id;
 
+SELECT *
+FROM analitica.clientes;
+
 -- Permite consultar el conjunto analítico.
 GRANT USAGE ON SCHEMA analitica TO analista2;
 GRANT SELECT ON analitica.clientes TO analista2;

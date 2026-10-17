@@ -2,8 +2,8 @@
  Podria ver la contraseña de todos los usuarios y de esta forma hacer mal uso de la informacion
   ## ¿Son iguales? 
   NO
-Si no son iguales, ¿por qué?
-No son iguales
+ ## Si no son iguales, ¿por qué?
+cada llamada a gen_salt() genera una sal aleatoria diferente, haciendo que la misma contraseña produzca hashes distintos
  ## ¿Qué función cumple gen_salt()?
  Genera una sal aleatoria para calcular el hash y evitar que contraseñas iguales produzcan el mismo resultado.
 ## ¿Qué función cumple crypt()?

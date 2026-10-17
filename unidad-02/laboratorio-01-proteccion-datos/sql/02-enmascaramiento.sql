@@ -37,7 +37,11 @@ TO soporte;
 REVOKE ALL
 ON clientes
 FROM soporte;
+-- Cambiar al rol soporte
+SET ROLE soporte;
 
+-- Ver rol actual
+SELECT current_user;
 SELECT *
 FROM v_clientes_soporte;
 
