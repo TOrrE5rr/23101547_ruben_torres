@@ -117,5 +117,54 @@ Puede consultar, modificar o eliminar datos que no necesita
 
 
 ## Por que no deberia utilizarse una cuenta SUPERUSER como cuenta normal de una aplicacion?
+porque tiene privilegios elevados sobre todo el servidor, si la aplicacion presenta una falla o alguien obtiene su contraseña, podria acceder, modificar o eliminar datos y cambiar permisos
 
-Porque tiene privilegios elevados sobre todo el servidor, si la aplicacion presenta una falla o alguien obtiene su contraseña, podria acceder, modificar o eliminar datos y cambiar permisos
+## actividad 9
+## DBA
+cuenta con login utilizada para administrar el servidor, gestionar usuarios, asignar permisos y realizar mantenimiento
+
+## APP
+cuenta con login utilizada por el software para conectarse a la base de datos, deebe tener unicamente los permisos necesarios para su funcionamiento, sin privilegios administrativos
+
+## CONSULTA
+cuenta con login utilizada para consultar informacion. Solo debe tener permisos de lectura sobre las tablas o vistas autorizadas
+
+## Que riesgo existe si la aplicacion se conecta utilizando una cuenta administrativa?
+ podria modificar o eliminar datos, cambiar permisos y afectar el servidor
+
+ ## actividad 10
+ ## Que extensiones existen?
+pgcrypto version 1.4 y plpgsql version 1.0
+
+## Cuales son necesarias?
+pgcrypto es necesaria si se utilizan funciones de hash y cifrado, plpgsql permite crear y ejecutar funciones y procedimientos con logica de programacion
+## Cuales fueron instaladas para practicas?
+pgcrypto se instalo para las practicas de proteccion de contraseñas y cifrado de datos
+
+## Cuales podrian representar funcionalidad innecesaria en otro entorno?
+pgcrypto podria ser innecesaria si el sistema no utiliza sus funciones
+
+## actividad 11
+## max_connections
+Valor actual: 100
+Establece el numero maximo de conexiones simultaneas al servidor, incluyendo las reservadas
+
+## superuser_reserved_connections
+Valor actual: 3
+Reserva 3 conexiones del total para superusuarios. Permite que el administrador pueda conectarse cuando se agotan los espacios disponibles para conexiones normale
+
+## statement_timeout
+Valor actual: 0.
+
+Limita el tiempo de ejecucion de una sentencia SQL,el valor 0 significa que este limite esta desactivado, por lo que una consulta no se cancela automaticamente por este parametro.
+
+## idle_in_transaction_session_timeout
+Valor actual: 0
+Limita el tiempo que una sesion puede permanecer inactiva con una transaccion abierta, el valor 0 significa que no se cierra automaticamente por este motivo
+
+## Por que mantener conexiones indefinidamente abiertas puede representar un problema de disponibilidad o consumo de recursos?
+Porque consumen memoria y ocupan espacios de conexion, lo que puede impedir que otros usuarios se conecten tambien mantienen transacciones abiertas, pueden conservar bloqueos y dificultar la limpieza de datos antiguos, afectando el rendimiento del servidor
+
+## actividad 12
+## Por que no es suficiente proteger PostgreSQL mediante GRANT y REVOKE si cualquier usuario del sistema operativo puede leer archivos sensibles?
+Porque grant y revoke controlan los permisos dentro de posgresql, pero no el acceso directo a los archivos del sistema
