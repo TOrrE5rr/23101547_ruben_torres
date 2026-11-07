@@ -14,4 +14,4 @@ Muchos errores de autenticacion en poco tiempo, desde la misma IP y contra uno o
 
 
 
-![Captura](img/image.png)
+![Captura](img/image20.png)
