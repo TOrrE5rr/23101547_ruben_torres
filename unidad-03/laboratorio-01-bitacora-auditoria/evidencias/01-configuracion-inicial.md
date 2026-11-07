@@ -13,4 +13,4 @@ Se registran en America/Chihuahua. Conocer la zona horaria permite comparar las 
 ## Con logging_collector = off, ¿quien decide donde termina la bitacora: PostgreSQL o el mecanismo con que se desplego el servidor?
 Lo decide el mecanismo con que se desplego el servidor
 
-![Captura](img/image.png)
+![Captura](img/image1.png)
