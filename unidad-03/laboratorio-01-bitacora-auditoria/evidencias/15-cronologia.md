@@ -1,8 +1,5 @@
-## Actividad 17 — Cronologia y respuestas a Direccion
 
-Las horas corresponden al 7 de noviembre de 2026, en UTC-06:00 (CST).
-Las lineas citadas pertenecen a la bitacora exportada originalmente, contando las lineas vacias.
-"Sin confirmar" indica que aparece la sentencia, pero no una confirmacion de su resultado.
+
 
 | # | Fecha y hora | Usuario | Cliente | Tipo de evento | Que ocurrio | ¿Exitoso? | Fuente |
 |---|---|---|---|---|---|---|---|
