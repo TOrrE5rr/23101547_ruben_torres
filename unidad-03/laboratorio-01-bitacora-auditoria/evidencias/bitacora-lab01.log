@@ -1,0 +1,622 @@
+﻿2026-11-07 16:31:27 CST LOG:  el sistema de bases de datos fue apagado en 2026-11-07 16:31:24 CST
+
+2026-11-07 16:36:27 CST LOG:  empezando checkpoint: time
+
+2026-11-07 16:36:29 CST LOG:  checkpoint completo: escritos 23 b├║fers (0.1%); escritos 3 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=2.545 s, sync=0.024 s, total=2.598 s; archivos sincronizados=21, m├ís largo=0.002 s, promedio=0.002 s; distancia=113 kB, estimaci├│n=113 kB; lsn=0/1FB2AB8, lsn de redo=0/1FB2A28
+
+2026-11-07 16:46:42 CST FATAL:  la autentificaci├│n password fall├│ para el usuario ┬½app_ventas┬╗
+
+2026-11-07 16:46:42 CST DETALLE:  La conexi├│n coincidi├│ con el archivo ┬½C:/Program Files/PostgreSQL/18/data/pg_hba.conf┬╗ l├¡nea 115: ┬½host    all             all             127.0.0.1/32            scram-sha-256┬╗
+
+2026-11-07 16:46:54 CST FATAL:  la autentificaci├│n password fall├│ para el usuario ┬½app_ventas┬╗
+
+2026-11-07 16:46:54 CST DETALLE:  La conexi├│n coincidi├│ con el archivo ┬½C:/Program Files/PostgreSQL/18/data/pg_hba.conf┬╗ l├¡nea 115: ┬½host    all             all             127.0.0.1/32            scram-sha-256┬╗
+
+2026-11-07 16:47:04 CST FATAL:  la autentificaci├│n password fall├│ para el usuario ┬½app_ventas┬╗
+
+2026-11-07 16:47:04 CST DETALLE:  La conexi├│n coincidi├│ con el archivo ┬½C:/Program Files/PostgreSQL/18/data/pg_hba.conf┬╗ l├¡nea 115: ┬½host    all             all             127.0.0.1/32            scram-sha-256┬╗
+
+2026-11-07 16:47:23 CST FATAL:  la autentificaci├│n password fall├│ para el usuario ┬½app_ventas┬╗
+
+2026-11-07 16:47:23 CST DETALLE:  La conexi├│n coincidi├│ con el archivo ┬½C:/Program Files/PostgreSQL/18/data/pg_hba.conf┬╗ l├¡nea 115: ┬½host    all             all             127.0.0.1/32            scram-sha-256┬╗
+
+2026-11-07 16:48:07 CST FATAL:  no existe la base de datos ┬½comercial┬╗
+
+2026-11-07 16:49:57 CST FATAL:  no existe la base de datos ┬½comercial┬╗
+
+2026-11-07 16:51:28 CST LOG:  empezando checkpoint: time
+
+2026-11-07 16:51:28 CST LOG:  checkpoint completo: escritos 2 b├║fers (0.0%); escritos 1 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=0.238 s, sync=0.006 s, total=0.259 s; archivos sincronizados=3, m├ís largo=0.004 s, promedio=0.002 s; distancia=5 kB, estimaci├│n=102 kB; lsn=0/1FB41A0, lsn de redo=0/1FB4148
+
+2026-11-07 16:55:50 CST FATAL:  no existe la base de datos ┬½practicas┬╗
+
+2026-11-07 16:56:28 CST LOG:  empezando checkpoint: time
+
+2026-11-07 16:56:28 CST LOG:  checkpoint completo: escritos 1 b├║fers (0.0%); escritos 1 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=0.121 s, sync=0.006 s, total=0.151 s; archivos sincronizados=2, m├ís largo=0.004 s, promedio=0.003 s; distancia=1 kB, estimaci├│n=92 kB; lsn=0/1FB4630, lsn de redo=0/1FB45D8
+
+2026-11-07 16:56:58 CST ERROR:  invalid byte sequence for encoding "UTF8": 0xfa
+
+2026-11-07 16:56:58 CST SENTENCIA:  SELECT linea FROM dba.bitacora
+
+
+	WHERE linea ILIKE '%update%' OR linea LIKE '%app_ventas%';
+
+2026-11-07 16:58:22 CST ERROR:  no se puede cambiar el ordenamiento de la columna ├é┬½linea├é┬╗ de la vista de ├é┬½default├é┬╗ a ├é┬½C├é┬╗
+
+2026-11-07 16:58:22 CST SENTENCIA:  CREATE OR REPLACE VIEW dba.bitacora AS
+
+
+	SELECT t.n AS num, t.linea
+
+
+	FROM regexp_split_to_table(
+
+
+	    convert_from(
+
+
+	        pg_read_binary_file(pg_current_logfile()),
+
+
+	        'WIN1252'
+
+
+	    ),
+
+
+	    E'\n'
+
+
+	) WITH ORDINALITY AS t(linea, n)
+
+
+	WHERE t.linea <> '';
+
+2026-11-07 16:58:41 CST ERROR:  secuencia de bytes no v├â┬ílida para codificaci├â┬│n ├é┬½UTF8├é┬╗: 0xfa
+
+2026-11-07 16:58:41 CST SENTENCIA:  SELECT linea FROM dba.bitacora
+
+
+	WHERE linea ILIKE '%update%' OR linea LIKE '%app_ventas%';
+
+2026-11-07 16:58:51 CST ERROR:  no se puede cambiar el ordenamiento de la columna ├é┬½linea├é┬╗ de la vista de ├é┬½default├é┬╗ a ├é┬½C├é┬╗
+
+2026-11-07 16:58:51 CST SENTENCIA:  CREATE OR REPLACE VIEW dba.bitacora AS
+
+
+	SELECT t.n AS num, t.linea
+
+
+	FROM regexp_split_to_table(
+
+
+	    convert_from(
+
+
+	        pg_read_binary_file(pg_current_logfile()),
+
+
+	        'WIN1252'
+
+
+	    ),
+
+
+	    E'\n'
+
+
+	) WITH ORDINALITY AS t(linea, n)
+
+
+	WHERE t.linea <> '';
+
+
+	
+
+2026-11-07 17:01:28 CST LOG:  empezando checkpoint: time
+
+2026-11-07 17:01:29 CST LOG:  checkpoint completo: escritos 5 b├║fers (0.0%); escritos 1 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=0.641 s, sync=0.008 s, total=0.679 s; archivos sincronizados=6, m├ís largo=0.003 s, promedio=0.002 s; distancia=27 kB, estimaci├│n=85 kB; lsn=0/1FBB510, lsn de redo=0/1FBB4B8
+
+2026-11-07 17:11:31.161 CST [11932] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-07 17:11:31.295 CST [11932] user= db= app= client= LOG:  checkpoint completo: escritos 1 b├║fers (0.0%); escritos 0 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=0.111 s, sync=0.001 s, total=0.135 s; archivos sincronizados=1, m├ís largo=0.001 s, promedio=0.001 s; distancia=8 kB, estimaci├│n=78 kB; lsn=0/1FBD648, lsn de redo=0/1FBD5F0
+
+2026-11-07 17:17:38.614 CST [5608] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=53872
+
+2026-11-07 17:17:38.637 CST [5608] user=app_ventas db=practicas app=[desconocido] client=127.0.0.1 FATAL:  la autentificaci├│n password fall├│ para el usuario ┬½app_ventas┬╗
+
+2026-11-07 17:17:38.637 CST [5608] user=app_ventas db=practicas app=[desconocido] client=127.0.0.1 DETALLE:  La conexi├│n coincidi├│ con el archivo ┬½C:/Program Files/PostgreSQL/18/data/pg_hba.conf┬╗ l├¡nea 115: ┬½host    all             all             127.0.0.1/32            scram-sha-256┬╗
+
+2026-11-07 17:17:55.331 CST [11816] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=53885
+
+2026-11-07 17:17:55.354 CST [11816] user=usuario_inexistente db=practicas app=[desconocido] client=127.0.0.1 FATAL:  la autentificaci├│n password fall├│ para el usuario ┬½usuario_inexistente┬╗
+
+2026-11-07 17:17:55.354 CST [11816] user=usuario_inexistente db=practicas app=[desconocido] client=127.0.0.1 DETALLE:  No existe el rol ┬½usuario_inexistente┬╗.
+
+	La conexi├│n coincidi├│ con el archivo ┬½C:/Program Files/PostgreSQL/18/data/pg_hba.conf┬╗ l├¡nea 115: ┬½host    all             all             127.0.0.1/32            scram-sha-256┬╗
+
+2026-11-07 17:18:10.394 CST [11700] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=53896
+
+2026-11-07 17:18:10.417 CST [11700] user=app_ventas db=practicas app=[desconocido] client=127.0.0.1 FATAL:  la autentificaci├│n password fall├│ para el usuario ┬½app_ventas┬╗
+
+2026-11-07 17:18:10.417 CST [11700] user=app_ventas db=practicas app=[desconocido] client=127.0.0.1 DETALLE:  La conexi├│n coincidi├│ con el archivo ┬½C:/Program Files/PostgreSQL/18/data/pg_hba.conf┬╗ l├¡nea 115: ┬½host    all             all             127.0.0.1/32            scram-sha-256┬╗
+
+2026-11-07 17:18:34.873 CST [11260] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexi├│n recibida: host=::1 port=53931
+
+2026-11-07 17:18:34.903 CST [11260] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autenticada: identidad=┬½postgres┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-07 17:18:34.904 CST [11260] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicaci├│n=pgAdmin 4 - CONN:2181476
+
+2026-11-07 17:26:45.716 CST [11260] user=postgres db=practica app=pgAdmin 4 - CONN:2181476 client=::1 LOG:  statement: REVOKE UPDATE ON clientes FROM soporte_ana;
+
+2026-11-07 17:26:52.364 CST [11260] user=postgres db=practica app=pgAdmin 4 - CONN:2181476 client=::1 LOG:  statement: GRANT UPDATE ON clientes TO app_ventas;
+
+2026-11-07 17:27:00.940 CST [11260] user=postgres db=practica app=pgAdmin 4 - CONN:2181476 client=::1 LOG:  statement: ALTER TABLE clientes ADD COLUMN segmento VARCHAR(20);
+
+2026-11-07 17:27:23.236 CST [11260] user=postgres db=practica app=pgAdmin 4 - CONN:2181476 client=::1 LOG:  statement: CREATE ROLE rol_temporal LOGIN PASSWORD '<REDACTED>';
+
+2026-11-07 17:27:32.678 CST [11260] user=postgres db=practica app=pgAdmin 4 - CONN:2181476 client=::1 LOG:  statement: DROP ROLE rol_temporal;
+
+2026-11-07 17:31:33.948 CST [11932] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-07 17:31:37.126 CST [11932] user= db= app= client= LOG:  checkpoint completo: escritos 7 b├║fers (0.0%); escritos 1 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=2.789 s, sync=0.015 s, total=3.178 s; archivos sincronizados=8, m├ís largo=0.007 s, promedio=0.002 s; distancia=36 kB, estimaci├│n=74 kB; lsn=0/1FC6898, lsn de redo=0/1FC6840
+
+2026-11-07 17:42:48.855 CST [8328] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=55786
+
+2026-11-07 17:42:48.878 CST [8328] user=app_ventas db=practicas app=[desconocido] client=127.0.0.1 FATAL:  la autentificaci├│n password fall├│ para el usuario ┬½app_ventas┬╗
+
+2026-11-07 17:42:48.878 CST [8328] user=app_ventas db=practicas app=[desconocido] client=127.0.0.1 DETALLE:  La conexi├│n coincidi├│ con el archivo ┬½C:/Program Files/PostgreSQL/18/data/pg_hba.conf┬╗ l├¡nea 115: ┬½host    all             all             127.0.0.1/32            scram-sha-256┬╗
+
+2026-11-07 17:43:46.770 CST [13212] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=55817
+
+2026-11-07 17:43:46.794 CST [13212] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 FATAL:  la autentificaci├│n password fall├│ para el usuario ┬½app_ventas┬╗
+
+2026-11-07 17:43:46.794 CST [13212] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 DETALLE:  La conexi├│n coincidi├│ con el archivo ┬½C:/Program Files/PostgreSQL/18/data/pg_hba.conf┬╗ l├¡nea 115: ┬½host    all             all             127.0.0.1/32            scram-sha-256┬╗
+
+2026-11-07 17:44:07.948 CST [12032] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexi├│n recibida: host=::1 port=55858
+
+2026-11-07 17:44:07.976 CST [12032] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autenticada: identidad=┬½postgres┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-07 17:44:07.977 CST [12032] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicaci├│n=pgAdmin 4 - CONN:6337663
+
+2026-11-07 17:45:08.269 CST [12032] user=postgres db=practica app=pgAdmin 4 - CONN:6337663 client=::1 LOG:  statement: ALTER SYSTEM SET log_statement = 'mod';
+
+2026-11-07 17:45:45.135 CST [6200] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=56111
+
+2026-11-07 17:45:45.171 CST [6200] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 FATAL:  la autentificaci├│n password fall├│ para el usuario ┬½app_ventas┬╗
+
+2026-11-07 17:45:45.171 CST [6200] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 DETALLE:  La conexi├│n coincidi├│ con el archivo ┬½C:/Program Files/PostgreSQL/18/data/pg_hba.conf┬╗ l├¡nea 115: ┬½host    all             all             127.0.0.1/32            scram-sha-256┬╗
+
+2026-11-07 17:46:33.664 CST [11932] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-07 17:46:33.798 CST [11932] user= db= app= client= LOG:  checkpoint completo: escritos 1 b├║fers (0.0%); escritos 0 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=0.116 s, sync=0.001 s, total=0.135 s; archivos sincronizados=1, m├ís largo=0.001 s, promedio=0.001 s; distancia=5 kB, estimaci├│n=67 kB; lsn=0/1FC7DB8, lsn de redo=0/1FC7D60
+
+2026-11-07 17:46:49.404 CST [12224] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=56186
+
+2026-11-07 17:46:49.440 CST [12224] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 FATAL:  la autentificaci├│n password fall├│ para el usuario ┬½app_ventas┬╗
+
+2026-11-07 17:46:49.440 CST [12224] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 DETALLE:  La conexi├│n coincidi├│ con el archivo ┬½C:/Program Files/PostgreSQL/18/data/pg_hba.conf┬╗ l├¡nea 115: ┬½host    all             all             127.0.0.1/32            scram-sha-256┬╗
+
+2026-11-07 17:47:49.293 CST [6872] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=56252
+
+2026-11-07 17:47:49.320 CST [6872] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 FATAL:  la autentificaci├│n password fall├│ para el usuario ┬½app_ventas┬╗
+
+2026-11-07 17:47:49.320 CST [6872] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 DETALLE:  La conexi├│n coincidi├│ con el archivo ┬½C:/Program Files/PostgreSQL/18/data/pg_hba.conf┬╗ l├¡nea 115: ┬½host    all             all             127.0.0.1/32            scram-sha-256┬╗
+
+2026-11-07 17:48:34.150 CST [12032] user=postgres db=practica app=pgAdmin 4 - CONN:6337663 client=::1 LOG:  statement: 
+
+
+	ALTER USER app_ventas WITH PASSWORD '<REDACTED>';
+
+2026-11-07 17:49:32.573 CST [12408] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=56335
+
+2026-11-07 17:49:32.596 CST [12408] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autenticada: identidad=┬½app_ventas┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:115)
+
+2026-11-07 17:49:32.596 CST [12408] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autorizada: usuario=app_ventas base_de_datos=practica nombre_de_aplicaci├│n=app-ventas-web
+
+2026-11-07 17:49:32.605 CST [12408] user=app_ventas db=practica app=app-ventas-web client=127.0.0.1 LOG:  sentencia: UPDATE clientes SET telefono = '6679990000' WHERE id = 3;
+
+2026-11-07 17:49:32.716 CST [12408] user=app_ventas db=practica app=app-ventas-web client=127.0.0.1 LOG:  desconexi├â┬│n: duraci├â┬│n de sesi├â┬│n: 0:00:00.169 usuario=app_ventas base=practica host=127.0.0.1 port=56335
+
+2026-11-07 17:51:22.553 CST [12032] user=postgres db=practica app=pgAdmin 4 - CONN:6337663 client=::1 LOG:  statement: ALTER SYSTEM SET log_statement = 'mod';
+
+2026-11-07 17:51:34.061 CST [11932] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-07 17:51:35.009 CST [11932] user= db= app= client= LOG:  checkpoint completo: escritos 3 b├║fers (0.0%); escritos 1 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=0.617 s, sync=0.006 s, total=0.949 s; archivos sincronizados=4, m├ís largo=0.004 s, promedio=0.002 s; distancia=14 kB, estimaci├│n=61 kB; lsn=0/1FCB6F0, lsn de redo=0/1FCB698
+
+2026-11-07 17:52:47.523 CST [6176] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=56548
+
+2026-11-07 17:52:47.546 CST [6176] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autenticada: identidad=┬½app_ventas┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:115)
+
+2026-11-07 17:52:47.546 CST [6176] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autorizada: usuario=app_ventas base_de_datos=practica nombre_de_aplicaci├│n=app-ventas-web
+
+2026-11-07 17:52:47.555 CST [6176] user=app_ventas db=practica app=app-ventas-web client=127.0.0.1 LOG:  sentencia: UPDATE clientes SET telefono = '6679990000' WHERE id = 3;
+
+2026-11-07 17:52:47.629 CST [6176] user=app_ventas db=practica app=app-ventas-web client=127.0.0.1 LOG:  desconexi├â┬│n: duraci├â┬│n de sesi├â┬│n: 0:00:00.132 usuario=app_ventas base=practica host=127.0.0.1 port=56548
+
+2026-11-07 17:56:05.086 CST [11260] user=postgres db=practica app=pgAdmin 4 - CONN:2181476 client=::1 LOG:  disconnection: session time: 0:37:30.266 user=postgres database=practica host=::1 port=53931
+
+2026-11-07 17:56:05.087 CST [12032] user=postgres db=practica app=pgAdmin 4 - CONN:6337663 client=::1 LOG:  disconnection: session time: 0:11:57.199 user=postgres database=practica host=::1 port=55858
+
+2026-11-07 17:56:34.065 CST [11932] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-07 17:56:34.210 CST [11932] user= db= app= client= LOG:  checkpoint completo: escritos 1 b├║fers (0.0%); escritos 1 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=0.122 s, sync=0.010 s, total=0.145 s; archivos sincronizados=2, m├ís largo=0.009 s, promedio=0.005 s; distancia=1 kB, estimaci├│n=55 kB; lsn=0/1FCBCE0, lsn de redo=0/1FCBC88
+
+2026-11-07 17:57:13.007 CST [10984] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexi├│n recibida: host=::1 port=56733
+
+2026-11-07 17:57:13.025 CST [10984] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexi├│n autenticada: identidad=┬½postgres┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-07 17:57:13.025 CST [10984] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexi├│n autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicaci├│n=pgAdmin 4 - DB:postgres
+
+2026-11-07 17:57:13.133 CST [3124] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexi├│n recibida: host=::1 port=56734
+
+2026-11-07 17:57:13.148 CST [3124] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autenticada: identidad=┬½postgres┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-07 17:57:13.148 CST [3124] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicaci├│n=pgAdmin 4 - DB:practica
+
+2026-11-07 17:58:43.470 CST [9044] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=56804
+
+2026-11-07 17:58:43.492 CST [9044] user=soporte_ana db=practica app=[desconocido] client=127.0.0.1 FATAL:  la autentificaci├│n password fall├│ para el usuario ┬½soporte_ana┬╗
+
+2026-11-07 17:58:43.492 CST [9044] user=soporte_ana db=practica app=[desconocido] client=127.0.0.1 DETALLE:  La conexi├│n coincidi├│ con el archivo ┬½C:/Program Files/PostgreSQL/18/data/pg_hba.conf┬╗ l├¡nea 115: ┬½host    all             all             127.0.0.1/32            scram-sha-256┬╗
+
+2026-11-07 17:59:46.667 CST [12636] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexi├│n recibida: host=::1 port=56861
+
+2026-11-07 17:59:46.703 CST [12636] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autenticada: identidad=┬½postgres┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-07 17:59:46.703 CST [12636] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicaci├│n=pgAdmin 4 - CONN:9790520
+
+2026-11-07 17:59:55.375 CST [12636] user=postgres db=practica app=pgAdmin 4 - CONN:9790520 client=::1 LOG:  statement: ALTER USER soporte_ana WITH PASSWORD '<REDACTED>';
+
+2026-11-07 18:00:12.854 CST [12964] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=56917
+
+2026-11-07 18:00:12.880 CST [12964] user=soporte_ana db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autenticada: identidad=┬½soporte_ana┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:115)
+
+2026-11-07 18:00:12.880 CST [12964] user=soporte_ana db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autorizada: usuario=soporte_ana base_de_datos=practica nombre_de_aplicaci├│n=psql
+
+2026-11-07 18:00:12.891 CST [12964] user=soporte_ana db=practica app=psql client=127.0.0.1 LOG:  sentencia: DELETE FROM clientes WHERE id = 5;
+
+2026-11-07 18:00:12.896 CST [12964] user=soporte_ana db=practica app=psql client=127.0.0.1 ERROR:  permiso denegado a la tabla clientes
+
+2026-11-07 18:00:12.896 CST [12964] user=soporte_ana db=practica app=psql client=127.0.0.1 SENTENCIA:  DELETE FROM clientes WHERE id = 5;
+
+2026-11-07 18:00:12.902 CST [12964] user=soporte_ana db=practica app=psql client=127.0.0.1 LOG:  desconexi├â┬│n: duraci├â┬│n de sesi├â┬│n: 0:00:00.077 usuario=soporte_ana base=practica host=127.0.0.1 port=56917
+
+2026-11-07 18:00:46.836 CST [12636] user=postgres db=practica app=pgAdmin 4 - CONN:9790520 client=::1 LOG:  statement: DROP ROLE soporte_ana;
+
+2026-11-07 18:00:46.839 CST [12636] user=postgres db=practica app=pgAdmin 4 - CONN:9790520 client=::1 ERROR:  role "soporte_ana" cannot be dropped because some objects depend on it
+
+2026-11-07 18:00:46.839 CST [12636] user=postgres db=practica app=pgAdmin 4 - CONN:9790520 client=::1 DETAIL:  privileges for table clientes
+
+2026-11-07 18:00:46.839 CST [12636] user=postgres db=practica app=pgAdmin 4 - CONN:9790520 client=::1 STATEMENT:  DROP ROLE soporte_ana;
+
+2026-11-07 18:01:34.239 CST [11932] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-07 18:01:34.526 CST [11932] user= db= app= client= LOG:  checkpoint completo: escritos 2 b├║fers (0.0%); escritos 1 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=0.224 s, sync=0.005 s, total=0.288 s; archivos sincronizados=3, m├ís largo=0.003 s, promedio=0.002 s; distancia=6 kB, estimaci├│n=50 kB; lsn=0/1FCD858, lsn de redo=0/1FCD800
+
+2026-11-07 18:12:49.906 CST [7740] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=57530
+
+2026-11-07 18:12:49.933 CST [7740] user=soporte_ana db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autenticada: identidad=┬½soporte_ana┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:115)
+
+2026-11-07 18:12:49.933 CST [7740] user=soporte_ana db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autorizada: usuario=soporte_ana base_de_datos=practica nombre_de_aplicaci├│n=reporte-mensual
+
+2026-11-07 18:13:19.982 CST [6424] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexi├│n recibida: host=::1 port=57569
+
+2026-11-07 18:13:20.017 CST [6424] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autenticada: identidad=┬½postgres┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-07 18:13:20.017 CST [6424] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicaci├│n=pgAdmin 4 - CONN:2568390
+
+2026-11-07 18:14:20.164 CST [7740] user=soporte_ana db=practica app=reporte-mensual client=127.0.0.1 LOG:  desconexi├â┬│n: duraci├â┬│n de sesi├â┬│n: 0:01:30.289 usuario=soporte_ana base=practica host=127.0.0.1 port=57530
+
+2026-11-07 18:18:39.488 CST [4556] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=58284
+
+2026-11-07 18:18:39.523 CST [4556] user=soporte_ana db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autenticada: identidad=┬½soporte_ana┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:115)
+
+2026-11-07 18:18:39.523 CST [4556] user=soporte_ana db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autorizada: usuario=soporte_ana base_de_datos=practica nombre_de_aplicaci├│n=reporte-mensual
+
+2026-11-07 18:20:09.934 CST [4556] user=soporte_ana db=practica app=reporte-mensual client=127.0.0.1 LOG:  desconexi├â┬│n: duraci├â┬│n de sesi├â┬│n: 0:01:30.488 usuario=soporte_ana base=practica host=127.0.0.1 port=58284
+
+2026-11-07 18:28:42.820 CST [11548] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexi├│n recibida: host=::1 port=59333
+
+2026-11-07 18:28:42.901 CST [11548] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autenticada: identidad=┬½postgres┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-07 18:28:42.902 CST [11548] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicaci├│n=pgAdmin 4 - CONN:1516675
+
+2026-11-07 18:43:47.529 CST [11548] user=postgres db=practica app=pgAdmin 4 - CONN:1516675 client=::1 LOG:  statement: CREATE SCHEMA auditoria;
+
+
+	REVOKE ALL ON SCHEMA auditoria FROM PUBLIC;
+
+
+	
+
+
+	CREATE TABLE auditoria.cambios_clientes (
+
+
+	    id_evento        BIGSERIAL PRIMARY KEY,
+
+
+	    momento          TIMESTAMPTZ NOT NULL DEFAULT now(),
+
+
+	    usuario_sesion   TEXT        NOT NULL DEFAULT session_user,
+
+
+	    usuario_efectivo TEXT        NOT NULL DEFAULT current_user,
+
+
+	    aplicacion       TEXT        DEFAULT current_setting('application_name'),
+
+
+	    ip_cliente       INET        DEFAULT inet_client_addr(),
+
+
+	    operacion        TEXT        NOT NULL,
+
+
+	    id_cliente       BIGINT,
+
+
+	    valores_antes    JSONB,
+
+
+	    valores_despues  JSONB
+
+
+	);
+
+2026-11-07 18:44:03.658 CST [12032] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexi├│n recibida: host=::1 port=60028
+
+2026-11-07 18:44:03.689 CST [12032] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autenticada: identidad=┬½postgres┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-07 18:44:03.689 CST [12032] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicaci├│n=pgAdmin 4 - CONN:233837
+
+2026-11-07 18:44:24.628 CST [12032] user=postgres db=practica app=pgAdmin 4 - CONN:233837 client=::1 LOG:  statement: CREATE OR REPLACE FUNCTION auditoria.registrar_cambio_cliente()
+
+
+	RETURNS trigger
+
+
+	LANGUAGE plpgsql
+
+
+	SECURITY DEFINER
+
+
+	SET search_path = pg_catalog, public
+
+
+	AS $$
+
+
+	BEGIN
+
+
+	    IF TG_OP = 'INSERT' THEN
+
+
+	        INSERT INTO auditoria.cambios_clientes (operacion, id_cliente, valores_despues)
+
+
+	        VALUES (TG_OP, NEW.id, to_jsonb(NEW));
+
+
+	        RETURN NEW;
+
+
+	    ELSIF TG_OP = 'UPDATE' THEN
+
+
+	        INSERT INTO auditoria.cambios_clientes (operacion, id_cliente, valores_antes, valores_despues)
+
+
+	        VALUES (TG_OP, NEW.id, to_jsonb(OLD), to_jsonb(NEW));
+
+
+	        RETURN NEW;
+
+
+	    ELSIF TG_OP = 'DELETE' THEN
+
+
+	        INSERT INTO auditoria.cambios_clientes (operacion, id_cliente, valores_antes)
+
+
+	        VALUES (TG_OP, OLD.id, to_jsonb(OLD));
+
+
+	        RETURN OLD;
+
+
+	    END IF;
+
+
+	    RETURN NULL;
+
+
+	END;
+
+
+	$$;
+
+
+	
+
+
+	REVOKE ALL ON FUNCTION auditoria.registrar_cambio_cliente() FROM PUBLIC;
+
+
+	
+
+
+	CREATE TRIGGER trg_auditoria_clientes
+
+
+	AFTER INSERT OR UPDATE OR DELETE ON clientes
+
+
+	FOR EACH ROW EXECUTE FUNCTION auditoria.registrar_cambio_cliente();
+
+2026-11-07 18:46:34.838 CST [11932] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-07 18:46:43.354 CST [11932] user= db= app= client= LOG:  checkpoint completo: escritos 59 b├║fers (0.4%); escritos 1 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 1 reciclados; write=8.235 s, sync=0.050 s, total=8.518 s; archivos sincronizados=48, m├ís largo=0.005 s, promedio=0.002 s; distancia=282 kB, estimaci├│n=282 kB; lsn=0/2014258, lsn de redo=0/20141C8
+
+2026-11-07 18:52:21.818 CST [8184] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexi├│n recibida: host=::1 port=61452
+
+2026-11-07 18:52:21.850 CST [8184] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autenticada: identidad=┬½postgres┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-07 18:52:21.852 CST [8184] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicaci├│n=pgAdmin 4 - CONN:6151942
+
+2026-11-07 18:53:44.272 CST [12916] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=61604
+
+2026-11-07 18:53:44.296 CST [12916] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autenticada: identidad=┬½app_ventas┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:115)
+
+2026-11-07 18:53:44.296 CST [12916] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autorizada: usuario=app_ventas base_de_datos=practica nombre_de_aplicaci├│n=app-ventas-web
+
+2026-11-07 18:53:44.305 CST [12916] user=app_ventas db=practica app=app-ventas-web client=127.0.0.1 LOG:  sentencia: UPDATE clientes SET rfc = 'GAMA780912ZZZ' WHERE id = 3;
+
+2026-11-07 18:53:44.325 CST [12916] user=app_ventas db=practica app=app-ventas-web client=127.0.0.1 LOG:  desconexi├â┬│n: duraci├â┬│n de sesi├â┬│n: 0:00:00.080 usuario=app_ventas base=practica host=127.0.0.1 port=61604
+
+2026-11-07 18:53:52.857 CST [5304] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=61609
+
+2026-11-07 18:53:52.884 CST [5304] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autenticada: identidad=┬½app_ventas┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:115)
+
+2026-11-07 18:53:52.884 CST [5304] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autorizada: usuario=app_ventas base_de_datos=practica nombre_de_aplicaci├│n=psql
+
+2026-11-07 18:53:52.894 CST [5304] user=app_ventas db=practica app=psql client=127.0.0.1 ERROR:  permiso denegado al esquema auditoria en car├â┬ícter 15
+
+2026-11-07 18:53:52.894 CST [5304] user=app_ventas db=practica app=psql client=127.0.0.1 SENTENCIA:  SELECT * FROM auditoria.cambios_clientes;
+
+2026-11-07 18:53:52.902 CST [5304] user=app_ventas db=practica app=psql client=127.0.0.1 LOG:  desconexi├â┬│n: duraci├â┬│n de sesi├â┬│n: 0:00:00.080 usuario=app_ventas base=practica host=127.0.0.1 port=61609
+
+2026-11-07 18:56:34.466 CST [11932] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-07 18:56:35.839 CST [11932] user= db= app= client= LOG:  checkpoint completo: escritos 12 b├║fers (0.1%); escritos 1 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=1.347 s, sync=0.013 s, total=1.374 s; archivos sincronizados=10, m├ís largo=0.004 s, promedio=0.002 s; distancia=39 kB, estimaci├│n=258 kB; lsn=0/201E1F8, lsn de redo=0/201E1A0
+
+2026-11-07 19:11:11.602 CST [3240] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexi├│n recibida: host=::1 port=62978
+
+2026-11-07 19:11:11.630 CST [3240] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autenticada: identidad=┬½postgres┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-07 19:11:11.630 CST [3240] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicaci├│n=pgAdmin 4 - CONN:1675203
+
+2026-11-07 19:11:20.086 CST [3240] user=postgres db=practica app=pgAdmin 4 - CONN:1675203 client=::1 LOG:  statement: INSERT INTO clientes (nombre, correo, rfc, edad, ciudad, codigo_postal)
+
+
+	VALUES ('Pedro Ruiz', 'pedro.ruiz@example.test', 'RUPE950101AAA', 30, 'Guasave', '81000');
+
+
+	DELETE FROM clientes WHERE nombre = 'Pedro Ruiz';
+
+
+	
+
+
+	SELECT id_evento, usuario_sesion, aplicacion, ip_cliente, operacion, id_cliente,
+
+
+	       valores_antes ->> 'rfc' AS rfc_antes, valores_despues ->> 'rfc' AS rfc_despues
+
+
+	FROM auditoria.cambios_clientes ORDER BY id_evento;
+
+2026-11-07 19:11:34.905 CST [11932] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-07 19:11:36.073 CST [11932] user= db= app= client= LOG:  checkpoint completo: escritos 6 b├║fers (0.0%); escritos 1 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=1.090 s, sync=0.036 s, total=1.168 s; archivos sincronizados=7, m├ís largo=0.028 s, promedio=0.006 s; distancia=3 kB, estimaci├│n=232 kB; lsn=0/201F168, lsn de redo=0/201F110
+
+2026-11-07 19:20:44.047 CST [9988] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=64587
+
+2026-11-07 19:20:44.080 CST [9988] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autenticada: identidad=┬½app_ventas┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:115)
+
+2026-11-07 19:20:44.080 CST [9988] user=app_ventas db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autorizada: usuario=app_ventas base_de_datos=practica nombre_de_aplicaci├│n=app-ventas-web
+
+2026-11-07 19:20:44.095 CST [9988] user=app_ventas db=practica app=app-ventas-web client=127.0.0.1 LOG:  sentencia: DELETE FROM auditoria.cambios_clientes;
+
+2026-11-07 19:20:44.095 CST [9988] user=app_ventas db=practica app=app-ventas-web client=127.0.0.1 ERROR:  permiso denegado al esquema auditoria en car├â┬ícter 13
+
+2026-11-07 19:20:44.095 CST [9988] user=app_ventas db=practica app=app-ventas-web client=127.0.0.1 SENTENCIA:  DELETE FROM auditoria.cambios_clientes;
+
+2026-11-07 19:20:44.177 CST [9988] user=app_ventas db=practica app=app-ventas-web client=127.0.0.1 LOG:  sentencia: ALTER TABLE clientes DISABLE TRIGGER trg_auditoria_clientes;
+
+2026-11-07 19:20:44.178 CST [9988] user=app_ventas db=practica app=app-ventas-web client=127.0.0.1 ERROR:  debe ser due├â┬▒o de la tabla clientes
+
+2026-11-07 19:20:44.178 CST [9988] user=app_ventas db=practica app=app-ventas-web client=127.0.0.1 SENTENCIA:  ALTER TABLE clientes DISABLE TRIGGER trg_auditoria_clientes;
+
+2026-11-07 19:20:44.187 CST [9988] user=app_ventas db=practica app=app-ventas-web client=127.0.0.1 LOG:  desconexi├â┬│n: duraci├â┬│n de sesi├â┬│n: 0:00:00.181 usuario=app_ventas base=practica host=127.0.0.1 port=64587
+
+2026-11-07 19:20:59.689 CST [11640] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexi├│n recibida: host=::1 port=64643
+
+2026-11-07 19:20:59.716 CST [11640] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autenticada: identidad=┬½postgres┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-07 19:20:59.717 CST [11640] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicaci├│n=pgAdmin 4 - CONN:2227297
+
+2026-11-07 19:21:11.920 CST [11640] user=postgres db=practica app=pgAdmin 4 - CONN:2227297 client=::1 LOG:  statement: ALTER TABLE clientes DISABLE TRIGGER trg_auditoria_clientes;
+
+2026-11-07 19:21:21.181 CST [11640] user=postgres db=practica app=pgAdmin 4 - CONN:2227297 client=::1 LOG:  statement: UPDATE clientes SET rfc = 'GAMA780912GHI' WHERE id = 3;
+
+2026-11-07 19:21:31.805 CST [11640] user=postgres db=practica app=pgAdmin 4 - CONN:2227297 client=::1 LOG:  statement: ALTER TABLE clientes ENABLE TRIGGER trg_auditoria_clientes;
+
+2026-11-07 19:21:34.256 CST [11932] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-07 19:21:34.575 CST [11932] user= db= app= client= LOG:  checkpoint completo: escritos 2 b├║fers (0.0%); escritos 1 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=0.225 s, sync=0.009 s, total=0.320 s; archivos sincronizados=3, m├ís largo=0.006 s, promedio=0.003 s; distancia=3 kB, estimaci├│n=209 kB; lsn=0/201FE38, lsn de redo=0/201FDE0
+
+2026-11-07 19:26:34.590 CST [11932] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-07 19:26:34.704 CST [11932] user= db= app= client= LOG:  checkpoint completo: escritos 1 b├║fers (0.0%); escritos 0 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=0.098 s, sync=0.001 s, total=0.114 s; archivos sincronizados=1, m├ís largo=0.001 s, promedio=0.001 s; distancia=1 kB, estimaci├│n=188 kB; lsn=0/2020518, lsn de redo=0/20204C0
+
+2026-11-07 19:29:59.876 CST [11428] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=65450
+
+2026-11-07 19:29:59.901 CST [11428] user=soporte_ana db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autenticada: identidad=┬½soporte_ana┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:115)
+
+2026-11-07 19:29:59.901 CST [11428] user=soporte_ana db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autorizada: usuario=soporte_ana base_de_datos=practica nombre_de_aplicaci├│n=psql
+
+2026-11-07 19:30:00.047 CST [11428] user=soporte_ana db=practica app=psql client=127.0.0.1 LOG:  desconexi├â┬│n: duraci├â┬│n de sesi├â┬│n: 0:00:00.197 usuario=soporte_ana base=practica host=127.0.0.1 port=65450
+
+2026-11-07 19:30:21.142 CST [11580] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexi├│n recibida: host=::1 port=49160
+
+2026-11-07 19:30:21.293 CST [11580] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autenticada: identidad=┬½postgres┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-07 19:30:21.293 CST [11580] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexi├│n autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicaci├│n=pgAdmin 4 - CONN:9040770
+
+2026-11-07 19:30:38.289 CST [11580] user=postgres db=practica app=pgAdmin 4 - CONN:9040770 client=::1 LOG:  statement: UPDATE clientes SET segmento = 'regular';
+
+
+	
+
+
+	SELECT count(*) AS lineas_bitacora FROM dba.bitacora
+
+
+	WHERE linea LIKE '%statement: UPDATE clientes SET segmento%';
+
+
+	
+
+
+	SELECT operacion, count(*) FROM auditoria.cambios_clientes GROUP BY operacion ORDER BY operacion;
+
+
+	
+
+
+	SELECT count(*) AS lecturas_soporte FROM dba.bitacora
+
+
+	WHERE linea LIKE '%user=soporte_ana%SELECT nombre, rfc%';
+
+2026-11-07 19:31:34.709 CST [11932] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-07 19:31:35.285 CST [11932] user= db= app= client= LOG:  checkpoint completo: escritos 5 b├║fers (0.0%); escritos 1 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=0.553 s, sync=0.009 s, total=0.576 s; archivos sincronizados=6, m├ís largo=0.003 s, promedio=0.002 s; distancia=8 kB, estimaci├│n=170 kB; lsn=0/2022840, lsn de redo=0/20227E8
+
+2026-11-07 19:36:34.290 CST [11932] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-07 19:36:34.415 CST [11932] user= db= app= client= LOG:  checkpoint completo: escritos 1 b├║fers (0.0%); escritos 0 b├║fers SLRU; 0 archivos WAL a├▒adidos, 0 eliminados, 0 reciclados; write=0.109 s, sync=0.001 s, total=0.126 s; archivos sincronizados=1, m├ís largo=0.001 s, promedio=0.001 s; distancia=4 kB, estimaci├│n=154 kB; lsn=0/2023C08, lsn de redo=0/2023BB0
+
+2026-11-07 19:39:43.537 CST [1884] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexi├│n recibida: host=127.0.0.1 port=50119
+
+2026-11-07 19:39:43.570 CST [1884] user=postgres db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autenticada: identidad=┬½postgres┬╗ m├®todo=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:115)
+
+2026-11-07 19:39:43.570 CST [1884] user=postgres db=practica app=[desconocido] client=127.0.0.1 LOG:  conexi├│n autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicaci├│n=psql
+
+
+
