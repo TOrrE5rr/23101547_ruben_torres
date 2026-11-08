@@ -6,3 +6,4 @@ Un error de autenticacion ocurre cuando el usuario no logra iniciar sesion, por 
 
 ## ¿Que indica el error de DROP ROLE sobre el orden correcto para dar de baja a un usuario?
 indica que soporte_ana todavia tiene privilegios sobre clientes. Primero se debe bloquear su acceso, retirar sus permisos y resolver otras dependencias, como objetos de su propiedad y ya luego eliminarla 
+![Captura](img/image18.png)
