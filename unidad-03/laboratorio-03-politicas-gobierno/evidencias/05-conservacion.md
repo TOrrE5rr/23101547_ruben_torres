@@ -15,8 +15,10 @@ Un permiso concedido hoy puede usarse meses despues. Conservar el evento permite
 
 ## ¿Que control de integridad aplicaras a las bitacoras exportadas?
 
-Calculare un hash SHA-256 de cada archivo al exportarlo. Guardare el hash por separado, con acceso restringido, y lo comparare antes de usar el archivo como evidencia.
+Calculare un hash SHA-256 de cada archivo al exportarlo
 
 ## ¿Que diferencia hay entre conservar una bitacora y respaldar una base de datos?
 
-La bitacora permite reconstruir que ocurrio, cuando y con que cuenta. El respaldo permite recuperar los datos y la estructura de la base despues de una perdida.
+La bitacora permite reconstruir que ocurrio, cuando y con que cuenta. El respaldo permite recuperar los datos y la estructura de la base despues de una perdida
+
+![Captura](img/image01.png)

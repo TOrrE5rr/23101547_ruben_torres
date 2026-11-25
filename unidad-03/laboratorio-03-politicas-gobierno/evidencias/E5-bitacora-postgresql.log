@@ -1,0 +1,716 @@
+2026-11-22 00:13:15.516 CST [3276] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55312
+
+2026-11-22 00:13:15.526 CST [10528] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55321
+
+2026-11-22 00:13:15.830 CST [7348] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55336
+
+2026-11-22 00:13:15.980 CST [10020] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55337
+
+2026-11-22 00:13:39.782 CST [14932] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55570
+
+2026-11-22 00:13:40.893 CST [13212] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55574
+
+2026-11-22 00:13:47.592 CST [3384] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55575
+
+2026-11-22 00:13:47.749 CST [7872] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55576
+
+2026-11-22 00:13:55.322 CST [6068] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55581
+
+2026-11-22 00:13:55.632 CST [4528] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55582
+
+2026-11-22 00:13:56.122 CST [16724] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55588
+
+2026-11-22 00:13:56.465 CST [13384] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55589
+
+2026-11-22 00:14:15.453 CST [9544] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55597
+
+2026-11-22 00:14:15.768 CST [15080] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55598
+
+2026-11-22 00:14:16.197 CST [10544] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55604
+
+2026-11-22 00:14:16.428 CST [8020] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55606
+
+2026-11-22 00:14:16.981 CST [10980] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55611
+
+2026-11-22 00:14:17.218 CST [14596] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55613
+
+2026-11-22 00:14:19.486 CST [17076] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55616
+
+2026-11-22 00:14:19.747 CST [9680] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55620
+
+2026-11-22 00:14:21.512 CST [2940] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55627
+
+2026-11-22 00:14:21.876 CST [16852] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55629
+
+2026-11-22 00:14:22.336 CST [6920] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55634
+
+2026-11-22 00:14:22.742 CST [14164] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55636
+
+2026-11-22 00:14:23.220 CST [15576] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55641
+
+2026-11-22 00:14:23.544 CST [17140] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55643
+
+2026-11-22 00:14:24.120 CST [12216] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55648
+
+2026-11-22 00:14:24.441 CST [6476] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55650
+
+2026-11-22 00:14:25.096 CST [15796] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55657
+
+2026-11-22 00:14:25.425 CST [14392] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55658
+
+2026-11-22 00:14:25.876 CST [16440] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55664
+
+2026-11-22 00:14:26.242 CST [5460] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55666
+
+2026-11-22 00:14:26.790 CST [12936] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55671
+
+2026-11-22 00:14:27.111 CST [13260] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55673
+
+2026-11-22 00:14:27.745 CST [5344] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55678
+
+2026-11-22 00:14:28.076 CST [5300] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55681
+
+2026-11-22 00:14:28.696 CST [3496] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55686
+
+2026-11-22 00:14:28.991 CST [17400] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55688
+
+2026-11-22 00:14:29.503 CST [16932] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55693
+
+2026-11-22 00:14:29.809 CST [14472] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55695
+
+2026-11-22 00:14:30.319 CST [10124] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55700
+
+2026-11-22 00:14:30.674 CST [17304] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55702
+
+2026-11-22 00:14:31.393 CST [4908] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55707
+
+2026-11-22 00:14:31.672 CST [9220] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55709
+
+2026-11-22 00:14:32.351 CST [6668] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55715
+
+2026-11-22 00:14:32.803 CST [9972] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55716
+
+2026-11-22 00:14:33.563 CST [10104] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55722
+
+2026-11-22 00:14:33.861 CST [7208] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55724
+
+2026-11-22 00:14:34.360 CST [13380] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55729
+
+2026-11-22 00:14:34.670 CST [15252] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55731
+
+2026-11-22 00:14:35.608 CST [10024] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55736
+
+2026-11-22 00:14:36.075 CST [9164] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55741
+
+2026-11-22 00:14:36.727 CST [9388] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55745
+
+2026-11-22 00:14:37.158 CST [15424] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55752
+
+2026-11-22 00:14:37.614 CST [2800] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55750
+
+2026-11-22 00:14:37.938 CST [6056] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55753
+
+2026-11-22 00:14:39.222 CST [9412] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55758
+
+2026-11-22 00:14:40.035 CST [8728] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55765
+
+2026-11-22 00:14:40.070 CST [16684] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55769
+
+2026-11-22 00:14:40.625 CST [11676] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55770
+
+2026-11-22 00:14:40.668 CST [14028] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55771
+
+2026-11-22 00:14:41.429 CST [5764] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55777
+
+2026-11-22 00:14:41.535 CST [14748] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55776
+
+2026-11-22 00:14:41.973 CST [7820] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55782
+
+2026-11-22 00:14:42.055 CST [3084] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55784
+
+2026-11-22 00:14:42.520 CST [17088] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55787
+
+2026-11-22 00:15:21.087 CST [11780] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55835
+
+2026-11-22 00:15:21.206 CST [11780] user=postgres db=postgres app=[desconocido] client=::1 FATAL:  la autentificación password falló para el usuario «postgres»
+
+2026-11-22 00:15:21.206 CST [11780] user=postgres db=postgres app=[desconocido] client=::1 DETALLE:  La conexión coincidió con el archivo «C:/Program Files/PostgreSQL/18/data/pg_hba.conf» línea 117: «host    all             all             ::1/128                 scram-sha-256»
+
+2026-11-22 00:15:22.623 CST [9540] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=55836
+
+2026-11-22 00:15:22.647 CST [9540] user=postgres db=postgres app=[desconocido] client=127.0.0.1 FATAL:  la autentificación password falló para el usuario «postgres»
+
+2026-11-22 00:15:22.647 CST [9540] user=postgres db=postgres app=[desconocido] client=127.0.0.1 DETALLE:  La conexión coincidió con el archivo «C:/Program Files/PostgreSQL/18/data/pg_hba.conf» línea 115: «host    all             all             127.0.0.1/32            scram-sha-256»
+
+2026-11-22 00:15:28.096 CST [10360] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55838
+
+2026-11-22 00:15:28.123 CST [10360] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 00:15:28.123 CST [10360] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+
+2026-11-22 00:15:29.808 CST [7552] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55842
+
+2026-11-22 00:15:29.948 CST [7552] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 00:15:29.949 CST [7552] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - CONN:5128845
+
+2026-11-22 00:15:34.738 CST [10904] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55875
+
+2026-11-22 00:15:34.766 CST [10904] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 00:15:34.766 CST [10904] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - CONN:5150784
+
+2026-11-22 00:17:00.532 CST [11624] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=56042
+
+2026-11-22 00:17:00.561 CST [11624] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 00:17:00.561 CST [11624] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 00:17:00.813 CST [9580] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=56040
+
+2026-11-22 00:17:00.834 CST [9580] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 00:17:00.834 CST [9580] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 00:17:00.883 CST [11624] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  disconnection: session time: 0:00:00.491 user=postgres database=practica host=::1 port=56042
+
+2026-11-22 00:18:19.697 CST [4540] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=56246
+
+2026-11-22 00:18:19.734 CST [4540] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 00:18:19.734 CST [4540] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 00:23:32.645 CST [10360] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  disconnection: session time: 0:08:04.609 user=postgres database=postgres host=::1 port=55838
+
+2026-11-22 00:23:32.649 CST [7552] user=postgres db=practica app=pgAdmin 4 - CONN:5128845 client=::1 LOG:  disconnection: session time: 0:08:02.965 user=postgres database=practica host=::1 port=55842
+
+2026-11-22 00:23:32.657 CST [10904] user=postgres db=practica app=pgAdmin 4 - CONN:5150784 client=::1 LOG:  disconnection: session time: 0:07:57.970 user=postgres database=practica host=::1 port=55875
+
+2026-11-22 00:23:32.663 CST [9580] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  disconnection: session time: 0:06:32.033 user=postgres database=practica host=::1 port=56040
+
+2026-11-22 00:23:35.719 CST [3920] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=56501
+
+2026-11-22 00:23:35.756 CST [3920] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 00:23:35.756 CST [3920] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+
+2026-11-22 00:23:39.281 CST [13824] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=56503
+
+2026-11-22 00:23:39.448 CST [13824] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 00:23:39.448 CST [13824] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 00:36:26.520 CST [9220] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=57165
+
+2026-11-22 00:36:26.551 CST [9220] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 00:36:26.551 CST [9220] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - CONN:5150784
+
+2026-11-22 00:36:26.737 CST [9220] user=postgres db=practica app=pgAdmin 4 - CONN:5150784 client=::1 LOG:  statement: INSERT INTO clientes (nombre, correo, telefono, rfc, edad, ciudad, codigo_postal) VALUES
+
+
+	('Ana Lopez', 'ANA.LOPEZ@example.test', '6671234567', 'LOAA850315AB', 41, 'Culiacan', '80000'),
+
+
+	('Jorge DÃ­az', 'sin-correo', '667', NULL, -3, 'CuliacÃ¡n', '8000');
+
+2026-11-22 00:40:18.844 CST [5616] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-22 00:40:19.645 CST [5616] user= db= app= client= LOG:  checkpoint completo: escritos 6 búfers (0.0%); escritos 1 búfers SLRU; 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.684 s, sync=0.016 s, total=0.812 s; archivos sincronizados=7, más largo=0.004 s, promedio=0.003 s; distancia=9 kB, estimación=9 kB; lsn=0/20263F0, lsn de redo=0/2026398
+
+2026-11-22 00:47:47.292 CST [4540] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+
+2026-11-22 00:47:47.292 CST [4540] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:29:27.646 usuario=postgres base=practica host=::1 port=56246
+
+2026-11-22 14:31:12.119 CST [7468] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55025
+
+2026-11-22 14:31:12.166 CST [7468] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 14:31:12.166 CST [7468] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - CONN:5150784
+
+2026-11-22 14:31:42.051 CST [17780] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55042
+
+2026-11-22 14:31:42.408 CST [17780] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 14:31:42.408 CST [17780] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - CONN:5150784
+
+2026-11-22 14:31:47.699 CST [11084] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=55056
+
+2026-11-22 14:31:47.748 CST [11084] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 14:31:47.748 CST [11084] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - CONN:5150784
+
+2026-11-22 16:35:03.809 CST [3920] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  disconnection: session time: 16:11:29.073 user=postgres database=postgres host=::1 port=56501
+
+2026-11-22 16:35:03.814 CST [9220] user=postgres db=practica app=pgAdmin 4 - CONN:5150784 client=::1 LOG:  disconnection: session time: 15:58:37.403 user=postgres database=practica host=::1 port=57165
+
+2026-11-22 16:35:03.816 CST [13824] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  disconnection: session time: 16:11:24.796 user=postgres database=practica host=::1 port=56503
+
+2026-11-22 16:38:35.034 CST [6132] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=57017
+
+2026-11-22 16:38:35.149 CST [6132] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 16:38:35.149 CST [6132] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+
+2026-11-22 16:38:35.294 CST [10880] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=57018
+
+2026-11-22 16:38:35.319 CST [10880] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 16:38:35.319 CST [10880] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 18:22:09.707 CST [6132] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  disconnection: session time: 1:43:34.730 user=postgres database=postgres host=::1 port=57017
+
+2026-11-22 18:22:09.708 CST [10880] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  disconnection: session time: 1:43:34.451 user=postgres database=practica host=::1 port=57018
+
+2026-11-22 18:22:33.210 CST [17324] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=57870
+
+2026-11-22 18:22:33.363 CST [17324] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 18:22:33.363 CST [17324] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+
+2026-11-22 18:22:33.549 CST [5184] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=57871
+
+2026-11-22 18:22:33.571 CST [5184] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 18:22:33.571 CST [5184] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 18:43:10.642 CST [17324] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  disconnection: session time: 0:20:37.527 user=postgres database=postgres host=::1 port=57870
+
+2026-11-22 18:43:10.644 CST [5184] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  disconnection: session time: 0:20:37.143 user=postgres database=practica host=::1 port=57871
+
+2026-11-22 18:45:04.547 CST [9044] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=58055
+
+2026-11-22 18:45:04.571 CST [9044] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 18:45:04.571 CST [9044] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+
+2026-11-22 18:45:04.746 CST [11408] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=58056
+
+2026-11-22 18:45:04.776 CST [11408] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 18:45:04.776 CST [11408] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 18:59:11.169 CST [9044] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  disconnection: session time: 0:14:06.682 user=postgres database=postgres host=::1 port=58055
+
+2026-11-22 18:59:11.173 CST [11408] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  disconnection: session time: 0:14:06.482 user=postgres database=practica host=::1 port=58056
+
+2026-11-22 19:02:12.136 CST [15624] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=58203
+
+2026-11-22 19:02:12.202 CST [15624] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 19:02:12.203 CST [15624] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+
+2026-11-22 19:02:12.367 CST [17012] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=58204
+
+2026-11-22 19:02:12.394 CST [17012] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 19:02:12.394 CST [17012] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 19:37:23.744 CST [7036] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=58876
+
+2026-11-22 19:37:24.350 CST [7036] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 19:37:24.350 CST [7036] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - CONN:9633525
+
+2026-11-22 19:39:15.728 CST [5880] user= db= app= client= WARNING:  «autovacuum worker» tomó demasiado tiempo para iniciarse; cancelado
+
+2026-11-22 19:41:28.703 CST [5880] user= db= app= client= WARNING:  «autovacuum worker» tomó demasiado tiempo para iniciarse; cancelado
+
+2026-11-22 19:42:16.009 CST [6908] user= db= app= client= WARNING:  autovacuum worker started without a worker entry
+
+2026-11-22 19:42:21.344 CST [15624] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  disconnection: session time: 0:40:09.289 user=postgres database=postgres host=::1 port=58203
+
+2026-11-22 19:42:21.354 CST [17012] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  disconnection: session time: 0:40:09.030 user=postgres database=practica host=::1 port=58204
+
+2026-11-22 19:42:21.356 CST [7036] user=postgres db=practica app=pgAdmin 4 - CONN:9633525 client=::1 LOG:  disconnection: session time: 0:04:58.074 user=postgres database=practica host=::1 port=58876
+
+2026-11-22 19:42:25.425 CST [11084] user=postgres db=practica app=pgAdmin 4 - CONN:5150784 client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+
+2026-11-22 19:42:25.425 CST [11084] user=postgres db=practica app=pgAdmin 4 - CONN:5150784 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 5:10:37.823 usuario=postgres base=practica host=::1 port=55056
+
+2026-11-22 19:42:26.754 CST [7468] user=postgres db=practica app=pgAdmin 4 - CONN:5150784 client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+
+2026-11-22 19:42:26.754 CST [7468] user=postgres db=practica app=pgAdmin 4 - CONN:5150784 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 5:11:15.126 usuario=postgres base=practica host=::1 port=55025
+
+2026-11-22 19:42:27.524 CST [16092] user= db= app= client= WARNING:  autovacuum worker started without a worker entry
+
+2026-11-22 19:42:32.554 CST [6080] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59045
+
+2026-11-22 19:42:32.581 CST [6080] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 19:42:32.581 CST [6080] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+
+2026-11-22 19:42:33.317 CST [15084] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59052
+
+2026-11-22 19:42:33.340 CST [15084] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 19:42:33.340 CST [15084] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 19:42:42.059 CST [17780] user=postgres db=practica app=pgAdmin 4 - CONN:5150784 client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+
+2026-11-22 19:42:42.059 CST [17780] user=postgres db=practica app=pgAdmin 4 - CONN:5150784 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 5:11:00.738 usuario=postgres base=practica host=::1 port=55042
+
+2026-11-22 19:45:21.569 CST [6080] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  disconnection: session time: 0:02:49.195 user=postgres database=postgres host=::1 port=59045
+
+2026-11-22 19:45:21.570 CST [15084] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  disconnection: session time: 0:02:48.573 user=postgres database=practica host=::1 port=59052
+
+2026-11-22 19:47:21.362 CST [10632] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59476
+
+2026-11-22 19:47:21.386 CST [10632] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 19:47:21.386 CST [10632] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+
+2026-11-22 19:47:21.564 CST [16616] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59477
+
+2026-11-22 19:47:21.585 CST [16616] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 19:47:21.586 CST [16616] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 19:47:25.003 CST [9776] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59487
+
+2026-11-22 19:47:25.035 CST [9776] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 19:47:25.035 CST [9776] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 19:47:26.405 CST [4020] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59494
+
+2026-11-22 19:47:26.438 CST [4020] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 19:47:26.439 CST [4020] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 19:47:35.093 CST [9984] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59503
+
+2026-11-22 19:47:35.122 CST [9984] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 19:47:35.122 CST [9984] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 19:53:59.956 CST [10632] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  disconnection: session time: 0:06:38.643 user=postgres database=postgres host=::1 port=59476
+
+2026-11-22 19:53:59.961 CST [16616] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  disconnection: session time: 0:06:38.449 user=postgres database=practica host=::1 port=59477
+
+2026-11-22 19:59:24.409 CST [1032] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59602
+
+2026-11-22 19:59:24.434 CST [1032] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 19:59:24.435 CST [1032] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+
+2026-11-22 19:59:24.637 CST [17860] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59603
+
+2026-11-22 19:59:24.662 CST [17860] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 19:59:24.662 CST [17860] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-22 20:00:33.633 CST [15020] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59669
+
+2026-11-22 20:00:33.674 CST [15020] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 20:00:33.675 CST [15020] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - CONN:9633525
+
+2026-11-22 20:00:34.066 CST [15020] user=postgres db=practica app=pgAdmin 4 - CONN:9633525 client=::1 LOG:  statement: COMMENT ON TABLE clientes IS 'Clientes de Comercializadora Norte. Propietario: Gerencia Comercial. Custodio: DBA. ClasificaciÃ³n: confidencial (contiene datos personales).';
+
+	COMMENT ON COLUMN clientes.id IS 'Identificador interno del cliente. Generado por el sistema.';
+
+	COMMENT ON COLUMN clientes.nombre IS 'Nombre completo. Dato personal identificador directo.';
+
+	COMMENT ON COLUMN clientes.correo IS 'Correo de contacto. Dato personal. Uso: notificaciones al cliente.';
+
+	COMMENT ON COLUMN clientes.rfc IS 'RFC del cliente. Dato personal. Uso: facturaciÃ³n. Cambios auditados en auditoria.cambios_clientes.';
+
+	COMMENT ON COLUMN clientes.edad IS 'Edad en aÃ±os cumplidos. Dato personal. Uso: analÃ­tica agregada.';
+
+	
+
+2026-11-22 20:00:49.828 CST [15020] user=postgres db=practica app=pgAdmin 4 - CONN:9633525 client=::1 LOG:  statement: COMMENT ON COLUMN clientes.id IS 'Identificador interno del cliente. Generado por el sistema.';
+
+2026-11-22 20:01:05.065 CST [15020] user=postgres db=practica app=pgAdmin 4 - CONN:9633525 client=::1 LOG:  statement: COMMENT ON COLUMN clientes.nombre IS 'Nombre completo. Dato personal identificador directo.';
+
+2026-11-22 20:01:25.511 CST [15020] user=postgres db=practica app=pgAdmin 4 - CONN:9633525 client=::1 LOG:  statement: COMMENT ON COLUMN clientes.correo IS 'Correo de contacto. Dato personal. Uso: notificaciones al cliente.';
+
+2026-11-22 20:01:38.848 CST [15020] user=postgres db=practica app=pgAdmin 4 - CONN:9633525 client=::1 LOG:  statement: COMMENT ON COLUMN clientes.rfc IS 'RFC del cliente. Dato personal. Uso: facturaciÃ³n. Cambios auditados en auditoria.cambios_clientes.';
+
+2026-11-22 20:01:57.005 CST [15020] user=postgres db=practica app=pgAdmin 4 - CONN:9633525 client=::1 LOG:  statement: COMMENT ON COLUMN clientes.edad IS 'Edad en aÃ±os cumplidos. Dato personal. Uso: analÃ­tica agregada.';
+
+2026-11-22 20:02:27.206 CST [5616] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-22 20:02:28.483 CST [5616] user= db= app= client= LOG:  checkpoint completo: escritos 7 búfers (0.0%); escritos 1 búfers SLRU; 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=1.189 s, sync=0.007 s, total=1.287 s; archivos sincronizados=5, más largo=0.004 s, promedio=0.002 s; distancia=49 kB, estimación=49 kB; lsn=0/2032830, lsn de redo=0/20327D8
+
+2026-11-22 20:20:20.789 CST [10752] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=60910
+
+2026-11-22 20:20:20.829 CST [10752] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-22 20:20:20.829 CST [10752] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - CONN:8688006
+
+2026-11-22 20:22:27.829 CST [5616] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-22 20:23:44.065 CST [5616] user= db= app= client= LOG:  checkpoint completo: escritos 104 búfers (0.6%); escritos 1 búfers SLRU; 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=73.196 s, sync=2.933 s, total=76.236 s; archivos sincronizados=19, más largo=2.565 s, promedio=0.155 s; distancia=808 kB, estimación=808 kB; lsn=0/20FCA70, lsn de redo=0/20FC9E0
+
+2026-11-22 20:59:36.820 CST [9776] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+
+2026-11-22 20:59:36.821 CST [9776] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 1:12:11.870 usuario=postgres base=practica host=::1 port=59487
+
+2026-11-22 20:59:36.968 CST [4020] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+
+2026-11-22 20:59:36.970 CST [4020] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 1:12:10.633 usuario=postgres base=practica host=::1 port=59494
+
+2026-11-22 20:59:36.985 CST [9984] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+
+2026-11-22 20:59:36.986 CST [9984] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 1:12:01.936 usuario=postgres base=practica host=::1 port=59503
+
+2026-11-23 21:32:28.760 CST [17860] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  disconnection: session time: 25:33:04.167 user=postgres database=practica host=::1 port=59603
+
+2026-11-23 21:32:28.760 CST [1032] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  disconnection: session time: 25:33:04.400 user=postgres database=postgres host=::1 port=59602
+
+2026-11-23 21:32:28.770 CST [15020] user=postgres db=practica app=pgAdmin 4 - CONN:9633525 client=::1 LOG:  disconnection: session time: 25:31:55.285 user=postgres database=practica host=::1 port=59669
+
+2026-11-23 21:32:28.772 CST [10752] user=postgres db=practica app=pgAdmin 4 - CONN:8688006 client=::1 LOG:  disconnection: session time: 25:12:08.319 user=postgres database=practica host=::1 port=60910
+
+2026-11-23 21:33:49.425 CST [13892] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=64383
+
+2026-11-23 21:33:49.455 CST [13892] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:33:49.455 CST [13892] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+
+2026-11-23 21:33:49.612 CST [6660] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=64384
+
+2026-11-23 21:33:49.635 CST [6660] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:33:49.635 CST [6660] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-23 21:34:18.568 CST [16956] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=64423
+
+2026-11-23 21:34:18.611 CST [16956] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:34:18.611 CST [16956] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-23 21:34:20.018 CST [17340] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=64429
+
+2026-11-23 21:34:20.068 CST [17340] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:34:20.068 CST [17340] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-23 21:34:20.480 CST [6012] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=64430
+
+2026-11-23 21:34:20.518 CST [6012] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:34:20.518 CST [6012] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-23 21:38:22.610 CST [6016] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=64798
+
+2026-11-23 21:38:22.643 CST [6016] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:38:22.643 CST [6016] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - CONN:266067
+
+2026-11-23 21:39:00.291 CST [6016] user=postgres db=practica app=pgAdmin 4 - CONN:266067 client=::1 LOG:  statement: CREATE SCHEMA gobierno;
+
+2026-11-23 21:39:09.722 CST [6016] user=postgres db=practica app=pgAdmin 4 - CONN:266067 client=::1 LOG:  statement: REVOKE ALL ON SCHEMA gobierno FROM PUBLIC;
+
+
+	
+
+2026-11-23 21:39:30.993 CST [6016] user=postgres db=practica app=pgAdmin 4 - CONN:266067 client=::1 LOG:  statement: CREATE TABLE gobierno.solicitudes_cambio (
+
+
+	    folio            TEXT PRIMARY KEY,
+
+
+	    descripcion      TEXT NOT NULL,
+
+
+	    solicitado_por   TEXT NOT NULL,
+
+
+	    aprobado_por     TEXT,
+
+
+	    ambiente         TEXT NOT NULL CHECK (ambiente IN ('desarrollo', 'pruebas', 'produccion')),
+
+
+	    fecha_aprobacion TIMESTAMPTZ,
+
+
+	    ventana_inicio   TIMESTAMPTZ,
+
+
+	    ventana_fin      TIMESTAMPTZ
+
+
+	);
+
+
+	
+
+
+	COMMENT ON TABLE gobierno.solicitudes_cambio IS 'Registro de solicitudes de cambio en la base comercial. Propietario: ComitÃ© de cambios. Custodio: DBA. Evidencia de POL-06.';
+
+2026-11-23 21:39:57.284 CST [5616] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-23 21:40:01.546 CST [5616] user= db= app= client= LOG:  checkpoint completo: escritos 35 búfers (0.2%); escritos 1 búfers SLRU; 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=4.180 s, sync=0.040 s, total=4.262 s; archivos sincronizados=32, más largo=0.004 s, promedio=0.002 s; distancia=154 kB, estimación=743 kB; lsn=0/21232A8, lsn de redo=0/2123250
+
+2026-11-23 21:40:11.005 CST [6016] user=postgres db=practica app=pgAdmin 4 - CONN:266067 client=::1 LOG:  statement: INSERT INTO gobierno.solicitudes_cambio VALUES
+
+
+	('CAM-2026-014', 'Agregar columna canal_alta a clientes', 'Gerencia Comercial',
+
+
+	 'ComitÃ© de cambios', 'produccion', now() - interval '1 day',
+
+
+	 now() - interval '5 minutes', now() + interval '1 hour');
+
+
+	
+
+
+	ALTER TABLE clientes ADD COLUMN canal_alta VARCHAR(20);
+
+
+	COMMENT ON COLUMN clientes.canal_alta IS 'Canal por el que se registrÃ³ el cliente. Cambio CAM-2026-014.';
+
+2026-11-23 21:44:57.579 CST [5616] user= db= app= client= LOG:  empezando checkpoint: time
+
+2026-11-23 21:44:59.578 CST [5616] user= db= app= client= LOG:  checkpoint completo: escritos 15 búfers (0.1%); escritos 1 búfers SLRU; 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=1.687 s, sync=0.111 s, total=1.999 s; archivos sincronizados=13, más largo=0.095 s, promedio=0.009 s; distancia=70 kB, estimación=675 kB; lsn=0/2134BB0, lsn de redo=0/2134B20
+
+2026-11-23 21:48:11.350 CST [13892] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  disconnection: session time: 0:14:21.967 user=postgres database=postgres host=::1 port=64383
+
+2026-11-23 21:48:11.351 CST [6660] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  disconnection: session time: 0:14:21.779 user=postgres database=practica host=::1 port=64384
+
+2026-11-23 21:48:11.356 CST [6016] user=postgres db=practica app=pgAdmin 4 - CONN:266067 client=::1 LOG:  disconnection: session time: 0:09:48.925 user=postgres database=practica host=::1 port=64798
+
+2026-11-23 21:48:27.314 CST [11572] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65379
+
+2026-11-23 21:48:27.544 CST [11572] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:48:27.544 CST [11572] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+
+2026-11-23 21:48:29.079 CST [1312] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65380
+
+2026-11-23 21:48:29.104 CST [1312] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:48:29.104 CST [1312] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-23 21:52:42.399 CST [11572] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  disconnection: session time: 0:04:15.284 user=postgres database=postgres host=::1 port=65379
+
+2026-11-23 21:52:42.406 CST [1312] user=postgres db=practica app=pgAdmin 4 - DB:practica client=::1 LOG:  disconnection: session time: 0:04:13.611 user=postgres database=practica host=::1 port=65380
+
+2026-11-23 21:53:35.539 CST [11332] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65469
+
+2026-11-23 21:53:35.562 CST [11332] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:53:35.562 CST [11332] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+
+2026-11-23 21:53:35.714 CST [13492] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65471
+
+2026-11-23 21:53:35.736 CST [13492] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:53:35.736 CST [13492] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=pgAdmin 4 - DB:practica
+
+2026-11-23 21:53:39.769 CST [4536] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65472
+
+2026-11-23 21:53:54.518 CST [2296] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65475
+
+2026-11-23 21:53:54.546 CST [2296] user=postgres db=practica app=[desconocido] client=::1 FATAL:  la autentificación password falló para el usuario «postgres»
+
+2026-11-23 21:53:54.546 CST [2296] user=postgres db=practica app=[desconocido] client=::1 DETALLE:  La conexión coincidió con el archivo «C:/Program Files/PostgreSQL/18/data/pg_hba.conf» línea 117: «host    all             all             ::1/128                 scram-sha-256»
+
+2026-11-23 21:54:05.672 CST [16060] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65476
+
+2026-11-23 21:54:11.564 CST [13972] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65478
+
+2026-11-23 21:54:11.590 CST [13972] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:54:11.590 CST [13972] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=psql
+
+2026-11-23 21:54:11.717 CST [13972] user=postgres db=practica app=psql client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.182 usuario=postgres base=practica host=::1 port=65478
+
+2026-11-23 21:55:47.015 CST [7716] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65512
+
+2026-11-23 21:55:52.086 CST [5316] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65515
+
+2026-11-23 21:55:52.114 CST [5316] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:55:52.114 CST [5316] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=psql
+
+2026-11-23 21:55:52.134 CST [5316] user=postgres db=practica app=psql client=::1 LOG:  disconnection: session time: 0:00:00.081 user=postgres database=practica host=::1 port=65515
+
+2026-11-23 21:56:01.083 CST [17812] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65517
+
+2026-11-23 21:56:05.994 CST [9508] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65518
+
+2026-11-23 21:56:06.021 CST [9508] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:56:06.021 CST [9508] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=psql
+
+2026-11-23 21:56:06.085 CST [9508] user=postgres db=practica app=psql client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.123 usuario=postgres base=practica host=::1 port=65518
+
+2026-11-23 21:56:18.426 CST [4224] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65519
+
+2026-11-23 21:56:23.757 CST [6692] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65520
+
+2026-11-23 21:56:23.794 CST [6692] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:56:23.794 CST [6692] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=psql
+
+2026-11-23 21:56:23.817 CST [6692] user=postgres db=practica app=psql client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.100 usuario=postgres base=practica host=::1 port=65520
+
+2026-11-23 21:56:34.936 CST [1212] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65521
+
+2026-11-23 21:56:39.900 CST [17480] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65523
+
+2026-11-23 21:56:39.935 CST [17480] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 21:56:39.935 CST [17480] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=psql
+
+2026-11-23 21:56:39.952 CST [17480] user=postgres db=practica app=psql client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.092 usuario=postgres base=practica host=::1 port=65523
+
+2026-11-23 22:00:59.873 CST [17620] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=49180
+
+2026-11-23 22:01:04.947 CST [15832] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=49182
+
+2026-11-23 22:01:04.971 CST [15832] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 22:01:04.971 CST [15832] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=psql
+
+2026-11-23 22:01:05.069 CST [15832] user=postgres db=practica app=psql client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.147 usuario=postgres base=practica host=::1 port=49182
+
+2026-11-23 22:01:11.969 CST [3100] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=49184
+
+2026-11-23 22:01:16.942 CST [1132] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=49186
+
+2026-11-23 22:01:16.966 CST [1132] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 22:01:16.966 CST [1132] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=psql
+
+2026-11-23 22:01:17.425 CST [1132] user=postgres db=practica app=psql client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.517 usuario=postgres base=practica host=::1 port=49186
+
+2026-11-23 22:01:53.056 CST [2192] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=49189
+
+2026-11-23 22:01:57.467 CST [9320] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=49190
+
+2026-11-23 22:01:57.490 CST [9320] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 22:01:57.491 CST [9320] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=psql
+
+2026-11-23 22:01:57.519 CST [9320] user=postgres db=practica app=psql client=::1 ERROR:  secuencia de bytes no vÃ¡lida para codificaciÃ³n Â«UTF8Â»: 0xf3 0x6e 0x20 0x72
+
+2026-11-23 22:01:57.519 CST [9320] user=postgres db=practica app=psql client=::1 SENTENCIA:  SELECT pg_read_file(pg_current_logfile());
+
+2026-11-23 22:01:57.525 CST [9320] user=postgres db=practica app=psql client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.083 usuario=postgres base=practica host=::1 port=49190
+
+2026-11-23 22:02:54.477 CST [12756] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=49198
+
+2026-11-23 22:02:58.598 CST [10432] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=49199
+
+2026-11-23 22:02:58.621 CST [10432] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 22:02:58.621 CST [10432] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=psql
+
+2026-11-23 22:02:58.696 CST [10432] user=postgres db=practica app=psql client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.126 usuario=postgres base=practica host=::1 port=49199
+
+2026-11-23 22:03:58.680 CST [17976] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=49205
+
+2026-11-23 22:04:04.394 CST [14616] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=49206
+
+2026-11-23 22:04:04.421 CST [14616] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/18/data/pg_hba.conf:117)
+
+2026-11-23 22:04:04.421 CST [14616] user=postgres db=practica app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=practica nombre_de_aplicación=psql
+

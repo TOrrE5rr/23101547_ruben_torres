@@ -1,0 +1,11 @@
+   grantee    | table_schema |      table_name      |      privilegios       
+--------------+--------------+----------------------+------------------------
+ analista2    | analitica    | clientes             | SELECT
+ analista3    | public       | v_analitica_clientes | SELECT
+ app_lab      | lab04        | productos            | INSERT, SELECT, UPDATE
+ app_ventas   | public       | clientes             | SELECT, UPDATE
+ consulta_lab | lab04        | productos            | SELECT
+ soporte      | public       | v_clientes_soporte   | SELECT
+ soporte_ana  | public       | clientes             | SELECT
+(7 filas)
+
